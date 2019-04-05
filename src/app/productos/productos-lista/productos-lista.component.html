@@ -1,0 +1,7 @@
+<h3>Lista de productos</h3>
+
+<app-producto-item *ngFor="let item of productos" [producto]="item" [producto] = productos
+(infoProduct)="inspeccionar($event)" 
+(removeFromCart)="borrarDeCarrito($event)"> </app-producto-item>
+
+
